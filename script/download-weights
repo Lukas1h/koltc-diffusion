@@ -10,7 +10,7 @@ os.makedirs("diffusers-cache", exist_ok=True)
 
 
 pipe = StableDiffusionPipeline.from_pretrained(
-    "https://huggingface.co/lukas1h07/koltc",
+    "lukas1h07/koltc",
     cache_dir="diffusers-cache",
     use_auth_token=sys.argv[1],
 )
